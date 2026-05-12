@@ -1,4 +1,5 @@
 {
+    "publisher": "Neko-vecter",
     "name": "i18n-toml",
     "displayName": "i18n-toml",
     "description": "",
@@ -73,5 +74,8 @@
                 ]
             }
         }
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.9.1"
     }
 }
