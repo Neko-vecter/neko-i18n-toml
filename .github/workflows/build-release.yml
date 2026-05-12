@@ -24,7 +24,7 @@ jobs:
     - name: Install dependencies
       run: yarn install
       
-    - name: build wiki 
+    - name: build vsix package 
       run: yarn vsce package
 
     - name: Get VSIX filename
