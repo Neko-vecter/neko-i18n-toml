@@ -8,7 +8,7 @@
     "displayName": "meow-i18n-toml",
     "icon": "resources/meow-i18n-logo.png",
     "description": "Language support for i18n.toml",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.118.0"
     },
