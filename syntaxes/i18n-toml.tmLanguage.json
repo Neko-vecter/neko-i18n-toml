@@ -1,0 +1,53 @@
+{
+    "scopeName": "source.i18n-toml",
+    "patterns": [
+        {
+            "name": "keyword.control.blockfile",
+            "match": "^\\[\\[metadata\\]\\]"
+        },
+
+        {
+            "name": "keyword.control.blockfile",
+            "match": "^\\[\\[block\\]\\]"
+        },
+
+        {
+            "name": "meta.keyvalue.blockfile",
+            "match": "^(key)\\s*=\\s*\"([^\"]*)\"",
+            "captures": {
+                "1": { "name": "source.i18n-toml.color.key" },
+                "2": { "name": "source.i18n-toml.color.key.sha" }
+            }
+        },
+
+        {
+            "name": "string.block.origin",
+            "begin": "^(origin)\\s*=\\s*'''",
+            "beginCaptures": {
+                "1": { "name": "source.i18n-toml.color.origin" }
+            },
+            "end": "'''",
+            "patterns": [
+                {
+                    "name": "source.i18n-toml.color.origin.val",
+                    "match": "."
+                }
+            ]
+        },
+
+        {
+            "name": "string.block.translate",
+            "begin": "^(translate)\\s*=\\s*'''",
+            "beginCaptures": {
+                "1": { "name": "source.i18n-toml.color.translate" }
+            },
+            "end": "'''",
+            "patterns": [
+                {
+                    "name": "source.i18n-toml.color.translate.val",
+                    "match": "."
+                }
+            ]
+        }
+    ]
+}

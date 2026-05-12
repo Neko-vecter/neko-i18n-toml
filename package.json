@@ -1,0 +1,77 @@
+{
+    "name": "i18n-toml",
+    "displayName": "i18n-toml",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.118.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "toml",
+                "aliases": [
+                    "i18n-toml",
+                    "toml"
+                ],
+                "extensions": [
+                    ".i18n.toml",
+                    ".toml"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "toml",
+                "scopeName": "source.i18n-toml",
+                "path": "./syntaxes/i18n-toml.tmLanguage.json"
+            }
+        ],
+        "configurationDefaults": {
+            "editor.tokenColorCustomizations": {
+                "textMateRules": [
+                    {
+                        "scope": "source.i18n-toml.color.key",
+                        "settings": {
+                            "foreground": "#FF5555"
+                        }
+                    },
+                    {
+                        "scope": "source.i18n-toml.color.key.sha",
+                        "settings": {
+                            "foreground": "#fca903"
+                        }
+                    },
+                    {
+                        "scope": "source.i18n-toml.color.origin",
+                        "settings": {
+                            "foreground": "#03fcd7"
+                        }
+                    },
+                    {
+                        "scope": "source.i18n-toml.color.origin.val",
+                        "settings": {
+                            "foreground": "#039dfc"
+                        }
+                    },
+                    {
+                        "scope": "source.i18n-toml.color.translate",
+                        "settings": {
+                            "foreground": "#fc6203"
+                        }
+                    },
+                    {
+                        "scope": "source.i18n-toml.color.translate.val",
+                        "settings": {
+                            "foreground": "#03fc7f"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
