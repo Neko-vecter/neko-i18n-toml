@@ -1,7 +1,7 @@
 {
     "publisher": "Neko-vecter",
-    "name": "i18n-toml",
-    "displayName": "i18n-toml",
+    "name": "neko-i18n-toml",
+    "displayName": "neko-i18n-toml",
     "description": "",
     "version": "0.0.1",
     "engines": {
