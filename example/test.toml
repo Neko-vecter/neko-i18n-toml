@@ -10,3 +10,12 @@ translate = '''
 This is the translated text in the target language.
 The extension makes these blocks easy to distinguish.
 '''
+
+[any_1]
+
+[[any_2]]
+
+test_1 = "xxx"
+test_2 = true
+test_3 = 123
+test_4 = [1, 2, 3]
