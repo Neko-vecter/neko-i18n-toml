@@ -20,12 +20,12 @@
             {
                 "id": "toml",
                 "aliases": [
-                    "i18n-toml",
-                    "toml"
+                    "toml",
+                    "i18n.toml"
                 ],
                 "extensions": [
-                    ".i18n.toml",
-                    ".toml"
+                    ".toml",
+                    ".i18n.toml"
                 ],
                 "configuration": "./language-configuration.json"
             }
@@ -33,7 +33,7 @@
         "grammars": [
             {
                 "language": "toml",
-                "scopeName": "source.i18n-toml",
+                "scopeName": "source.toml",
                 "path": "./syntaxes/i18n-toml.tmLanguage.json"
             }
         ],

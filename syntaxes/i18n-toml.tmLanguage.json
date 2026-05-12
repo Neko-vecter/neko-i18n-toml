@@ -1,5 +1,5 @@
 {
-    "scopeName": "source.i18n-toml",
+    "scopeName": "source.toml",
     "patterns": [
         {
             "name": "keyword.control.blockfile",
