@@ -4,10 +4,11 @@
         "type": "git",
         "url": "https://github.com/Neko-vecter/neko-i18n-toml"
     },
-    "name": "neko-i18n-toml",
-    "displayName": "neko-i18n-toml",
-    "description": "",
-    "version": "0.0.1",
+    "name": "meow-i18n-toml",
+    "displayName": "meow-i18n-toml",
+    "icon": "resources/meow-i18n-logo.png",
+    "description": "Language support for i18n.toml",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.118.0"
     },
